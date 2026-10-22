@@ -4,37 +4,7 @@ Prediksi risiko keterlambatan pengiriman pada DataCo Global menggunakan Spark ML
 dan graph analytics.
 
 **Jesika Purnomo — 2702751025**
-Magister Teknik Informatika, BINUS Graduate Program
 COMP8035041 — Big Data Analytics
-
----
-
-## Isi Repositori
-
-```
-notebooks/
-  Assignment_2_Big_Data_executed.ipynb   notebook yang dijalankan, lengkap dengan output
-  Assignment_2_Big_Data_revised.ipynb    versi perbaikan (lihat Catatan Koreksi)
-src/
-  assignment_2_big_data.py               notebook dalam bentuk skrip Python
-output/                                  hasil evaluasi model dan graph (CSV, JSON)
-dashboard/                               data siap pakai untuk dashboard Final Project
-figures/                                 gambar yang dipakai pada laporan
-```
-
-Notebook pada folder `notebooks/` sudah memuat seluruh output eksekusi, jadi hasilnya
-bisa dibaca langsung di GitHub tanpa perlu menjalankan ulang. Seluruh angka pada folder
-`output/` berasal dari satu kali eksekusi yang sama dengan notebook tersebut, dan
-angkanya sama persis dengan yang dilaporkan pada laporan Assignment II.
-
-## Menjalankan Ulang
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/notebooks/Assignment_2_Big_Data_executed.ipynb)
-
-1. Buka notebook di Google Colab.
-2. Jalankan sel instalasi, lalu pilih **Runtime > Restart session**.
-3. Siapkan `kaggle.json` untuk mengunduh dataset DataCo.
-4. **Run all**. Waktu eksekusi sekitar 20 sampai 30 menit.
 
 Dataset tidak disertakan pada repositori ini karena ukuran dan ketentuan lisensinya:
 
@@ -69,26 +39,6 @@ tingkat keterlambatan berada pada rentang −0,0927 sampai +0,0920, sedangkan mo
 graph utama hanya 0,0254 dan graph pendukung 0,0000. Keterlambatan tidak terkonsentrasi
 pada wilayah maupun kategori produk tertentu.
 
-## Catatan Koreksi
-
-Pada `output/experiment_config.json`, nilai `graph_utama_metrik.modularitas` tercatat
-**0,0641**. Nilai tersebut keliru. Variabel penampung modularitas graph utama tertimpa
-oleh perhitungan graph pendukung sebelum berkas konfigurasi ditulis.
-
-Nilai yang benar adalah **0,0254**, sesuai output sel deteksi komunitas pada notebook.
-Jumlah komunitas sebanyak tiga tidak terpengaruh. Perbaikannya ada pada
-`notebooks/Assignment_2_Big_Data_revised.ipynb`, berupa pemisahan nama variabel menjadi
-`mod_utama` untuk graph utama dan `mod_unw` untuk graph pendukung.
-
-## Catatan Reproduksibilitas
-
-Batas pembagian data ditentukan memakai `approxQuantile` dengan toleransi galat 0,001,
-sehingga batasnya bisa bergeser beberapa baris antareksekusi. Pada eksekusi lain jumlah
-baris test set dapat menjadi 36.256 dan sebagian nilai TN bergeser sekitar tiga baris,
-tanpa mengubah kesimpulan apa pun. Waktu pelatihan juga berbeda-beda karena bergantung
-pada mesin yang dialokasikan Colab.
-
-## Lingkungan
 
 Python 3.13.16 · PySpark 3.5.1 · GraphFrames 0.8.3 · scikit-learn 1.6.1 ·
 pandas 2.2.3 · NetworkX 3.7 · random seed 42
