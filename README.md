@@ -39,7 +39,7 @@ tingkat keterlambatan berada pada rentang −0,0927 sampai +0,0920, sedangkan mo
 graph utama hanya 0,0254 dan graph pendukung 0,0000. Keterlambatan tidak terkonsentrasi
 pada wilayah maupun kategori produk tertentu.
 
-
+## Environment
 Python 3.13.16 · PySpark 3.5.1 · GraphFrames 0.8.3 · scikit-learn 1.6.1 ·
 pandas 2.2.3 · NetworkX 3.7 · random seed 42
 
