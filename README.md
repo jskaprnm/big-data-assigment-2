@@ -9,7 +9,7 @@ COMP8035041 — Big Data Analytics
 Dataset tidak disertakan pada repositori ini karena ukuran dan ketentuan lisensinya:
 
 - DataCo Smart Supply Chain — https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
-- Amazon Berkeley Objects (ABO) — diunduh otomatis oleh notebook
+- Amazon Berkeley Objects (ABO) - https://amazon-berkeley-objects.s3.amazonaws.com/index.html
 
 ## Ringkasan Hasil
 
