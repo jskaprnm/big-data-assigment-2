@@ -1,0 +1,258 @@
+fitur,importance,kelompok
+shipping_mode_ohe_Standard Class,0.322887,shipping_mode
+sched_days,0.235716,sched_days
+shipping_mode_ohe_First Class,0.208393,shipping_mode
+shipping_mode_ohe_Second Class,0.088552,shipping_mode
+order_hour,0.047966,fitur waktu
+shipping_mode_ohe_Same Day,0.045172,shipping_mode
+payment_type_ohe_TRANSFER,0.011331,payment_type
+payment_type_ohe_DEBIT,0.003279,payment_type
+order_dayofweek,0.002318,fitur waktu
+payment_type_ohe_PAYMENT,0.002179,payment_type
+order_month,0.002037,fitur waktu
+discount_rate,0.001631,nilai transaksi
+discount_amount,0.001489,nilai transaksi
+line_total,0.001185,nilai transaksi
+sales,0.001117,nilai transaksi
+unit_price,0.000986,nilai transaksi
+customer_segment_ohe_Corporate,0.000748,pelanggan
+payment_type_ohe_CASH,0.000718,payment_type
+customer_segment_ohe_Consumer,0.000699,pelanggan
+qty,0.000608,nilai transaksi
+customer_segment_ohe_Home Office,0.000533,pelanggan
+is_weekend,0.000519,fitur waktu
+order_country_ohe_Suecia,0.000512,fitur waktu
+order_country_ohe_República Democrática del Congo,0.000466,fitur waktu
+order_country_ohe_Hungría,0.000338,fitur waktu
+order_country_ohe_Togo,0.00029,fitur waktu
+order_country_ohe_Australia,0.000278,fitur waktu
+order_year,0.000277,fitur waktu
+order_country_ohe_Mozambique,0.000268,fitur waktu
+order_country_ohe_Colombia,0.000264,fitur waktu
+order_country_ohe_Panamá,0.000258,fitur waktu
+order_country_ohe_Cuba,0.000248,fitur waktu
+order_country_ohe_Irak,0.000241,fitur waktu
+order_country_ohe_Portugal,0.000224,fitur waktu
+order_country_ohe_Estonia,0.000221,fitur waktu
+order_country_ohe_Bélgica,0.000219,fitur waktu
+order_country_ohe_Nicaragua,0.000215,fitur waktu
+order_country_ohe_Malasia,0.000213,fitur waktu
+department_name_ohe_Apparel,0.000212,produk
+category_name_ohe_Water Sports,0.000206,produk
+category_name_ohe_Indoor/Outdoor Games,0.000202,produk
+price_bucket_ohe_mid,0.000197,produk
+category_name_ohe_Cleats,0.000197,produk
+order_region_ohe_West of USA ,0.000197,fitur waktu
+order_country_ohe_Marruecos,0.000196,fitur waktu
+market_ohe_USCA,0.000196,geografis
+department_name_ohe_Fan Shop,0.000189,produk
+department_name_ohe_Golf,0.000187,produk
+order_region_ohe_Central America,0.000186,fitur waktu
+order_country_ohe_Kenia,0.000186,fitur waktu
+department_name_ohe_Footwear,0.000181,produk
+order_region_ohe_Oceania,0.00018,fitur waktu
+order_country_ohe_Bielorrusia,0.000177,fitur waktu
+order_country_ohe_Canada,0.000175,fitur waktu
+order_country_ohe_Somalia,0.000174,fitur waktu
+order_country_ohe_Israel,0.000174,fitur waktu
+price_bucket_ohe_low,0.000172,produk
+order_region_ohe_Central Africa,0.000168,fitur waktu
+order_region_ohe_Canada,0.000168,fitur waktu
+order_country_ohe_Camerún,0.000168,fitur waktu
+category_name_ohe_Men's Footwear,0.000166,produk
+order_country_ohe_Polonia,0.000165,fitur waktu
+order_region_ohe_North Africa,0.000165,fitur waktu
+order_region_ohe_West Africa,0.00016,fitur waktu
+category_name_ohe_Women's Apparel,0.000158,produk
+order_country_ohe_Croacia,0.000156,fitur waktu
+price_bucket_ohe_high,0.000154,produk
+department_name_ohe_Outdoors,0.000151,produk
+category_name_ohe_Cardio Equipment,0.000145,produk
+order_country_ohe_Nigeria,0.000144,fitur waktu
+order_region_ohe_East of USA,0.00014,fitur waktu
+order_country_ohe_República Dominicana,0.000139,fitur waktu
+order_country_ohe_Venezuela,0.000139,fitur waktu
+category_name_ohe_Fishing,0.000137,produk
+market_ohe_LATAM,0.000135,geografis
+category_name_ohe_Shop By Sport,0.000131,produk
+order_country_ohe_Alemania,0.00013,fitur waktu
+order_country_ohe_Brasil,0.000129,fitur waktu
+order_country_ohe_Italia,0.000129,fitur waktu
+order_country_ohe_Kirguistán,0.000129,fitur waktu
+category_name_ohe_Camping & Hiking,0.000125,produk
+order_country_ohe_Haití,0.000124,fitur waktu
+order_country_ohe_Ecuador,0.000123,fitur waktu
+category_name_ohe_Electronics,0.000122,produk
+order_region_ohe_Eastern Europe,0.00012,fitur waktu
+order_region_ohe_Southeast Asia,0.000118,fitur waktu
+order_country_ohe_Zimbabue,0.000117,fitur waktu
+order_country_ohe_Argentina,0.000116,fitur waktu
+order_region_ohe_South America,0.000116,fitur waktu
+category_name_ohe_Accessories,0.000113,produk
+order_country_ohe_Myanmar (Birmania),0.000111,fitur waktu
+order_country_ohe_SudAfrica,0.000111,fitur waktu
+order_country_ohe_Azerbaiyán,0.00011,fitur waktu
+order_country_ohe_Nueva Zelanda,0.000107,fitur waktu
+order_country_ohe_Chile,0.000105,fitur waktu
+order_country_ohe_Costa de Marfil,0.000103,fitur waktu
+order_country_ohe_Liberia,0.000102,fitur waktu
+order_country_ohe_Ucrania,9.9e-05,fitur waktu
+order_region_ohe_South of  USA ,9.8e-05,fitur waktu
+order_country_ohe_Corea del Sur,9.7e-05,fitur waktu
+order_country_ohe_Tanzania,9.6e-05,fitur waktu
+order_region_ohe_Southern Africa,9.2e-05,fitur waktu
+order_country_ohe_Lituania,9.1e-05,fitur waktu
+order_country_ohe_Jamaica,9e-05,fitur waktu
+order_country_ohe_Indonesia,9e-05,fitur waktu
+order_region_ohe_West Asia,8.8e-05,fitur waktu
+order_country_ohe_Rusia,8.6e-05,fitur waktu
+order_country_ohe_Angola,8.6e-05,fitur waktu
+department_name_ohe_Fitness,8.5e-05,produk
+order_country_ohe_Turquía,8.4e-05,fitur waktu
+order_country_ohe_Kazajistán,8.2e-05,fitur waktu
+order_country_ohe_Yibuti,8e-05,fitur waktu
+order_country_ohe_Reino Unido,8e-05,fitur waktu
+order_country_ohe_Turkmenistán,8e-05,fitur waktu
+order_region_ohe_Northern Europe,7.9e-05,fitur waktu
+category_name_ohe_Girls' Apparel,7.9e-05,produk
+order_region_ohe_East Africa,7.9e-05,fitur waktu
+order_country_ohe_Guatemala,7.8e-05,fitur waktu
+order_region_ohe_US Center ,7.8e-05,fitur waktu
+order_country_ohe_Honduras,7.7e-05,fitur waktu
+order_country_ohe_Gabón,7.7e-05,fitur waktu
+order_country_ohe_Singapur,7.6e-05,fitur waktu
+order_country_ohe_Egipto,7.6e-05,fitur waktu
+order_country_ohe_Vietnam,7.6e-05,fitur waktu
+order_country_ohe_India,7.5e-05,fitur waktu
+order_country_ohe_Japón,7.5e-05,fitur waktu
+order_region_ohe_Caribbean,7.5e-05,fitur waktu
+category_name_ohe_Golf Balls,7.4e-05,produk
+order_country_ohe_Finlandia,7.4e-05,fitur waktu
+order_country_ohe_Zambia,7.4e-05,fitur waktu
+order_country_ohe_Francia,7.3e-05,fitur waktu
+category_name_ohe_Trade-In,7.2e-05,produk
+order_region_ohe_Western Europe,7.2e-05,fitur waktu
+category_name_ohe_Hockey,7.1e-05,produk
+order_country_ohe_Ghana,6.9e-05,fitur waktu
+category_name_ohe_Lacrosse,6.9e-05,produk
+order_country_ohe_España,6.8e-05,fitur waktu
+order_country_ohe_Irlanda,6.8e-05,fitur waktu
+category_name_ohe_Boxing & MMA,6.6e-05,produk
+order_country_ohe_El Salvador,6.4e-05,fitur waktu
+order_country_ohe_Noruega,6.4e-05,fitur waktu
+category_name_ohe_Hunting & Shooting,6.3e-05,produk
+order_country_ohe_Uruguay,6.3e-05,fitur waktu
+order_country_ohe_Perú,6.3e-05,fitur waktu
+order_country_ohe_Austria,6.3e-05,fitur waktu
+order_country_ohe_Senegal,6.3e-05,fitur waktu
+order_country_ohe_República Checa,6.3e-05,fitur waktu
+order_country_ohe_China,6.2e-05,fitur waktu
+category_name_ohe_Tennis & Racquet,6e-05,produk
+order_country_ohe_México,5.9e-05,fitur waktu
+order_country_ohe_Georgia,5.8e-05,fitur waktu
+order_country_ohe_Estados Unidos,5.7e-05,fitur waktu
+order_country_ohe_Moldavia,5.6e-05,fitur waktu
+order_country_ohe_Martinica,5.6e-05,fitur waktu
+order_country_ohe_Trinidad y Tobago,5.5e-05,fitur waktu
+order_country_ohe_Túnez,5.5e-05,fitur waktu
+order_region_ohe_South Asia,5.4e-05,fitur waktu
+order_region_ohe_Eastern Asia,5.4e-05,fitur waktu
+order_country_ohe_Bolivia,5.4e-05,fitur waktu
+order_country_ohe_Bangladés,5.4e-05,fitur waktu
+order_country_ohe_Camboya,5.3e-05,fitur waktu
+order_country_ohe_Hong Kong,5.2e-05,fitur waktu
+order_country_ohe_Uganda,5.2e-05,fitur waktu
+order_country_ohe_Rumania,5e-05,fitur waktu
+order_country_ohe_Suiza,5e-05,fitur waktu
+category_name_ohe_Baseball & Softball,5e-05,produk
+market_ohe_Europe,5e-05,geografis
+category_name_ohe_Golf Gloves,4.9e-05,produk
+order_country_ohe_Lesoto,4.9e-05,fitur waktu
+order_country_ohe_Yemen,4.9e-05,fitur waktu
+order_country_ohe_Arabia Saudí,4.8e-05,fitur waktu
+market_ohe_Africa,4.8e-05,geografis
+order_country_ohe_Paraguay,4.7e-05,fitur waktu
+order_country_ohe_Irán,4.7e-05,fitur waktu
+order_country_ohe_Siria,4.7e-05,fitur waktu
+order_country_ohe_Argelia,4.7e-05,fitur waktu
+order_region_ohe_Central Asia,4.7e-05,fitur waktu
+order_country_ohe_Filipinas,4.6e-05,fitur waktu
+order_region_ohe_Southern Europe,4.5e-05,fitur waktu
+order_country_ohe_Bulgaria,4.4e-05,fitur waktu
+market_ohe_Pacific Asia,4.4e-05,geografis
+order_country_ohe_Guinea,4.4e-05,fitur waktu
+order_country_ohe_Pakistán,4.3e-05,fitur waktu
+order_country_ohe_Afganistán,4.3e-05,fitur waktu
+order_country_ohe_Níger,4.1e-05,fitur waktu
+category_name_ohe_Golf Shoes,3.8e-05,produk
+order_country_ohe_Uzbekistán,3.7e-05,fitur waktu
+order_country_ohe_Ruanda,3.6e-05,fitur waktu
+order_country_ohe_Benín,3.6e-05,fitur waktu
+order_country_ohe_Nepal,3.5e-05,fitur waktu
+category_name_ohe_Fitness Accessories,3.5e-05,produk
+category_name_ohe_Golf Apparel,3.4e-05,produk
+order_country_ohe_Sudán,3.3e-05,fitur waktu
+order_country_ohe_Qatar,3.2e-05,fitur waktu
+order_country_ohe_Países Bajos,3.2e-05,fitur waktu
+order_country_ohe_Madagascar,2.9e-05,fitur waktu
+order_country_ohe_Tailandia,2.7e-05,fitur waktu
+order_country_ohe_Albania,2.5e-05,fitur waktu
+order_country_ohe_Etiopía,2.3e-05,fitur waktu
+order_country_ohe_República del Congo,2.3e-05,fitur waktu
+order_country_ohe_Taiwán,2.1e-05,fitur waktu
+order_country_ohe_Emiratos Árabes Unidos,2.1e-05,fitur waktu
+order_country_ohe_Mali,2.1e-05,fitur waktu
+order_country_ohe_Mongolia,1.9e-05,fitur waktu
+order_country_ohe_Suazilandia,1.8e-05,fitur waktu
+order_country_ohe_Bosnia y Herzegovina,1.6e-05,fitur waktu
+order_country_ohe_Tayikistán,1.5e-05,fitur waktu
+order_country_ohe_Dinamarca,1.3e-05,fitur waktu
+order_country_ohe_Libia,1.3e-05,fitur waktu
+order_country_ohe_Papúa Nueva Guinea,1.1e-05,fitur waktu
+order_country_ohe_Eslovaquia,8e-06,fitur waktu
+order_country_ohe_Jordania,8e-06,fitur waktu
+order_country_ohe_Mauritania,6e-06,fitur waktu
+order_country_ohe_República Centroafricana,6e-06,fitur waktu
+order_country_ohe_Costa Rica,6e-06,fitur waktu
+order_country_ohe_Surinam,4e-06,fitur waktu
+order_country_ohe_Barbados,4e-06,fitur waktu
+order_country_ohe_Grecia,3e-06,fitur waktu
+order_country_ohe_Montenegro,3e-06,fitur waktu
+order_country_ohe_Eslovenia,2e-06,fitur waktu
+order_country_ohe_Sierra Leona,1e-06,fitur waktu
+order_country_ohe_Botsuana,1e-06,fitur waktu
+price_bucket_ohe___unknown,0.0,produk
+order_country_ohe_Guinea-Bissau,0.0,fitur waktu
+shipping_mode_ohe___unknown,0.0,shipping_mode
+order_country_ohe_Bután,0.0,fitur waktu
+order_country_ohe_Baréin,0.0,fitur waktu
+order_country_ohe_Sudán del Sur,0.0,fitur waktu
+order_country_ohe_República de Gambia,0.0,fitur waktu
+order_country_ohe_Armenia,0.0,fitur waktu
+order_country_ohe_Chipre,0.0,fitur waktu
+order_country_ohe_Luxemburgo,0.0,fitur waktu
+order_country_ohe_Macedonia,0.0,fitur waktu
+order_country_ohe_Guyana,0.0,fitur waktu
+order_country_ohe_Sri Lanka,0.0,fitur waktu
+order_country_ohe_Omán,0.0,fitur waktu
+order_country_ohe_Belice,0.0,fitur waktu
+order_country_ohe_Líbano,0.0,fitur waktu
+order_country_ohe_Namibia,0.0,fitur waktu
+order_country_ohe_Burkina Faso,0.0,fitur waktu
+order_country_ohe_Guadalupe,0.0,fitur waktu
+market_ohe___unknown,0.0,geografis
+order_country_ohe___unknown,0.0,fitur waktu
+order_country_ohe_Kuwait,0.0,fitur waktu
+order_country_ohe_Guinea Ecuatorial,0.0,fitur waktu
+order_country_ohe_Eritrea,0.0,fitur waktu
+order_country_ohe_Guayana Francesa,0.0,fitur waktu
+order_country_ohe_Chad,0.0,fitur waktu
+order_country_ohe_Laos,0.0,fitur waktu
+order_country_ohe_Burundi,0.0,fitur waktu
+order_country_ohe_Sáhara Occidental,0.0,fitur waktu
+order_country_ohe_Serbia,0.0,fitur waktu
+category_name_ohe___unknown,0.0,produk
+order_region_ohe___unknown,0.0,fitur waktu
+department_name_ohe___unknown,0.0,produk
+customer_segment_ohe___unknown,0.0,pelanggan
+payment_type_ohe___unknown,0.0,payment_type

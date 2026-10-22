@@ -1,0 +1,93 @@
+shipping_mode,order_region,jumlah_order,late_rate,total_sales
+First Class,Canada,184,0.9239,33802.74
+First Class,Caribbean,1193,0.9489,234070.24
+First Class,Central Africa,300,0.9267,57285.76
+First Class,Central America,4382,0.955,883848.84
+First Class,Central Asia,63,1.0,11901.37
+First Class,East Africa,280,0.9893,55829.01
+First Class,East of USA,1089,0.9642,211524.19
+First Class,Eastern Asia,1043,0.9482,216086.65
+First Class,Eastern Europe,658,0.9605,131587.93
+First Class,North Africa,486,0.9712,96183.32
+First Class,Northern Europe,1418,0.9598,308814.85
+First Class,Oceania,1366,0.9297,272933.77
+First Class,South America,2311,0.9321,458332.19
+First Class,South Asia,1283,0.9665,260713.51
+First Class,South of  USA ,600,0.9517,122223.76
+First Class,Southeast Asia,1552,0.9549,312532.65
+First Class,Southern Africa,198,0.9848,37871.12
+First Class,Southern Europe,1504,0.9721,332145.32
+First Class,US Center ,986,0.9645,191715.86
+First Class,West Africa,463,0.9784,89661.69
+First Class,West Asia,994,0.9527,195131.57
+First Class,West of USA ,1149,0.933,223375.9
+First Class,Western Europe,4312,0.9525,936797.5
+Same Day,Canada,33,0.2121,7214.0
+Same Day,Caribbean,451,0.4967,89415.5
+Same Day,Central Africa,79,0.3038,15852.93
+Same Day,Central America,1423,0.4575,280530.27
+Same Day,Central Asia,64,0.2031,12098.45
+Same Day,East Africa,98,0.4184,18292.78
+Same Day,East of USA,418,0.4785,81552.36
+Same Day,Eastern Asia,406,0.4754,79838.45
+Same Day,Eastern Europe,178,0.3596,31985.67
+Same Day,North Africa,193,0.5596,36472.53
+Same Day,Northern Europe,517,0.3985,114352.06
+Same Day,Oceania,647,0.4065,122960.42
+Same Day,South America,776,0.5129,151776.34
+Same Day,South Asia,379,0.496,70126.35
+Same Day,South of  USA ,235,0.4255,45313.65
+Same Day,Southeast Asia,451,0.408,88637.61
+Same Day,Southern Africa,75,0.56,15878.38
+Same Day,Southern Europe,569,0.5325,120445.88
+Same Day,US Center ,323,0.387,63418.06
+Same Day,West Africa,223,0.3543,47976.33
+Same Day,West Asia,279,0.4588,55689.6
+Same Day,West of USA ,425,0.4824,81356.04
+Same Day,Western Europe,1495,0.4736,311344.88
+Second Class,Canada,166,0.753,32206.81
+Second Class,Caribbean,1631,0.783,328435.37
+Second Class,Central Africa,297,0.8114,57423.99
+Second Class,Central America,5481,0.75,1086763.42
+Second Class,Central Asia,117,0.8632,22943.3
+Second Class,East Africa,362,0.7707,72061.51
+Second Class,East of USA,1278,0.748,253337.42
+Second Class,Eastern Asia,1406,0.7937,287205.5
+Second Class,Eastern Europe,772,0.7487,150954.84
+Second Class,North Africa,617,0.7828,119581.4
+Second Class,Northern Europe,1953,0.7624,432321.06
+Second Class,Oceania,2035,0.7676,400051.2
+Second Class,South America,2827,0.7506,561054.66
+Second Class,South Asia,1552,0.7719,311107.56
+Second Class,South of  USA ,829,0.8118,155120.15
+Second Class,Southeast Asia,1833,0.761,372839.81
+Second Class,Southern Africa,150,0.68,29564.46
+Second Class,Southern Europe,1698,0.7615,359706.19
+Second Class,US Center ,1200,0.7542,237668.52
+Second Class,West Africa,738,0.7724,146735.91
+Second Class,West Asia,1204,0.765,236317.35
+Second Class,West of USA ,1632,0.7684,322243.65
+Second Class,Western Europe,5438,0.779,1169800.74
+Standard Class,Canada,576,0.2882,113637.49
+Standard Class,Caribbean,5043,0.3534,999098.22
+Standard Class,Central Africa,1001,0.4286,196700.33
+Standard Class,Central America,17055,0.3853,3414569.58
+Standard Class,Central Asia,309,0.4175,62896.81
+Standard Class,East Africa,1112,0.3948,230051.59
+Standard Class,East of USA,4130,0.3978,824698.02
+Standard Class,Eastern Asia,4425,0.3745,903270.74
+Standard Class,Eastern Europe,2312,0.3927,459738.12
+Standard Class,North Africa,1936,0.3611,382514.97
+Standard Class,Northern Europe,5904,0.3787,1300342.68
+Standard Class,Oceania,6100,0.3913,1220708.81
+Standard Class,South America,9021,0.381,1789718.21
+Standard Class,South Asia,4517,0.3817,911733.5
+Standard Class,South of  USA ,2381,0.383,463126.38
+Standard Class,Southeast Asia,5703,0.3921,1158485.5
+Standard Class,Southern Africa,734,0.3787,144937.63
+Standard Class,Southern Europe,5660,0.3659,1235621.43
+Standard Class,US Center ,3378,0.3763,658553.32
+Standard Class,West Africa,2272,0.3746,443577.26
+Standard Class,West Asia,3532,0.3754,687533.25
+Standard Class,West of USA ,4787,0.3723,944440.37
+Standard Class,Western Europe,15864,0.3838,3476437.65

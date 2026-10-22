@@ -1,0 +1,107 @@
+dst,total_order,late_rate,jumlah_customer_state,negara
+DEST::Estados Unidos,24721,0.5501,36,Estados Unidos
+DEST::Francia,13071,0.5547,33,Francia
+DEST::México,13056,0.5508,34,México
+DEST::Alemania,9387,0.5646,29,Alemania
+DEST::Australia,8356,0.5424,30,Australia
+DEST::Brasil,7853,0.5417,31,Brasil
+DEST::Reino Unido,7089,0.535,27,Reino Unido
+DEST::China,5494,0.5444,23,China
+DEST::Italia,4772,0.5314,24,Italia
+DEST::India,4501,0.5639,20,India
+DEST::Indonesia,3971,0.5475,22,Indonesia
+DEST::España,3668,0.5543,23,España
+DEST::El Salvador,3360,0.5637,17,El Salvador
+DEST::Honduras,3338,0.5303,18,Honduras
+DEST::República Dominicana,3287,0.5488,16,República Dominicana
+DEST::Cuba,3285,0.5114,18,Cuba
+DEST::Turquía,3198,0.5582,20,Turquía
+DEST::Nicaragua,2764,0.5561,18,Nicaragua
+DEST::Guatemala,2472,0.5558,16,Guatemala
+DEST::Nigeria,2022,0.5316,14,Nigeria
+DEST::Filipinas,1789,0.5528,12,Filipinas
+DEST::Países Bajos,1654,0.5466,11,Países Bajos
+DEST::Argentina,1584,0.5139,12,Argentina
+DEST::Panamá,1562,0.5038,10,Panamá
+DEST::Colombia,1494,0.5127,11,Colombia
+DEST::Nueva Zelanda,1296,0.5262,10,Nueva Zelanda
+DEST::Irán,1136,0.529,7,Irán
+DEST::Austria,1089,0.5886,8,Austria
+DEST::Egipto,890,0.5607,6,Egipto
+DEST::Marruecos,883,0.5617,7,Marruecos
+DEST::República Democrática del Congo,796,0.598,8,República Democrática del Congo
+DEST::Rusia,776,0.5528,5,Rusia
+DEST::SudAfrica,765,0.5085,6,SudAfrica
+DEST::Ucrania,759,0.5521,7,Ucrania
+DEST::Venezuela,759,0.5323,7,Venezuela
+DEST::Irak,722,0.4972,6,Irak
+DEST::Canada,713,0.5105,5,Canada
+DEST::Suecia,645,0.6295,5,Suecia
+DEST::Arabia Saudí,632,0.557,6,Arabia Saudí
+DEST::Tailandia,585,0.5761,4,Tailandia
+DEST::Pakistán,559,0.5438,5,Pakistán
+DEST::Vietnam,531,0.499,6,Vietnam
+DEST::Japón,511,0.5127,3,Japón
+DEST::Chile,490,0.5877,4,Chile
+DEST::Polonia,486,0.5762,5,Polonia
+DEST::Perú,449,0.5635,3,Perú
+DEST::Bélgica,413,0.552,4,Bélgica
+DEST::Corea del Sur,348,0.592,3,Corea del Sur
+DEST::Argelia,347,0.513,5,Argelia
+DEST::Malasia,343,0.6589,3,Malasia
+DEST::Haití,334,0.521,3,Haití
+DEST::Rumania,312,0.5897,3,Rumania
+DEST::Irlanda,279,0.5125,2,Irlanda
+DEST::Myanmar (Birmania),278,0.5863,3,Myanmar (Birmania)
+DEST::Singapur,263,0.5437,2,Singapur
+DEST::Bangladés,261,0.5402,2,Bangladés
+DEST::Noruega,209,0.4881,3,Noruega
+DEST::Suiza,200,0.555,2,Suiza
+DEST::Ecuador,195,0.6667,3,Ecuador
+DEST::Portugal,193,0.5078,2,Portugal
+DEST::Tanzania,180,0.5556,2,Tanzania
+DEST::Finlandia,179,0.4693,2,Finlandia
+DEST::Dinamarca,151,0.4834,2,Dinamarca
+DEST::Camerún,149,0.5369,2,Camerún
+DEST::Senegal,146,0.4452,2,Senegal
+DEST::Zambia,137,0.5402,2,Zambia
+DEST::Kazajistán,137,0.562,2,Kazajistán
+DEST::Mozambique,131,0.5801,2,Mozambique
+DEST::Israel,128,0.6328,2,Israel
+DEST::Bolivia,127,0.5984,2,Bolivia
+DEST::Sudán,125,0.472,2,Sudán
+DEST::Kenia,124,0.5242,2,Kenia
+DEST::Angola,114,0.6579,1,Angola
+DEST::Jamaica,110,0.4909,2,Jamaica
+DEST::Ghana,109,0.5137,2,Ghana
+DEST::Hungría,108,0.5371,2,Hungría
+DEST::Costa de Marfil,102,0.6471,2,Costa de Marfil
+DEST::Bielorrusia,97,0.5979,1,Bielorrusia
+DEST::Somalia,89,0.7191,2,Somalia
+DEST::Zimbabue,74,0.6622,1,Zimbabue
+DEST::Bulgaria,69,0.4638,1,Bulgaria
+DEST::Uruguay,68,0.7794,1,Uruguay
+DEST::República Checa,67,0.6418,1,República Checa
+DEST::Madagascar,61,0.623,1,Madagascar
+DEST::Martinica,59,0.5424,1,Martinica
+DEST::Afganistán,59,0.5763,1,Afganistán
+DEST::Lituania,56,0.7321,1,Lituania
+DEST::Mali,55,0.7091,1,Mali
+DEST::Togo,53,0.3019,1,Togo
+DEST::Trinidad y Tobago,53,0.4528,1,Trinidad y Tobago
+DEST::Uzbekistán,51,0.3333,1,Uzbekistán
+DEST::Barbados,51,0.6275,1,Barbados
+DEST::Níger,47,0.617,1,Níger
+DEST::Benín,41,0.5366,1,Benín
+DEST::Ruanda,39,0.5128,1,Ruanda
+DEST::Jordania,39,0.5385,1,Jordania
+DEST::Croacia,37,0.6486,1,Croacia
+DEST::Mongolia,36,0.6667,1,Mongolia
+DEST::Kirguistán,36,0.5278,1,Kirguistán
+DEST::Nepal,35,0.4286,1,Nepal
+DEST::Paraguay,35,0.5714,1,Paraguay
+DEST::Camboya,35,0.7143,1,Camboya
+DEST::Uganda,32,0.2813,1,Uganda
+DEST::Libia,32,0.4688,1,Libia
+DEST::Yemen,31,0.8387,1,Yemen
+DEST::Georgia,31,0.8065,1,Georgia

@@ -1,0 +1,12 @@
+metrik,nilai
+jumlah_node,142.0
+jumlah_edge,751.0
+node_customer_state,36.0
+node_order_country,106.0
+ambang_bobot_edge,30.0
+connected_components,1.0
+pendukung_jumlah_node,32.0
+pendukung_jumlah_edge,241.0
+pendukung_densitas,0.4859
+pendukung_komunitas_berbobot,1.0
+pendukung_modularitas_berbobot,0.0

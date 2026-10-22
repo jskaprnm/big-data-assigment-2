@@ -1,0 +1,17 @@
+model,peran,framework,split,threshold,accuracy,precision_weighted,recall_weighted,f1_weighted,precision_pos,recall_pos,f1_pos,specificity,roc_auc,auc_pr,TP,FP,FN,TN,fit_time_s,prep_time_s,convert_time_s
+Logistic Regression,inti,Spark MLlib,chronological_test,0.5,0.7012,0.7418,0.7012,0.6962,0.8417,0.5587,0.6716,0.8732,0.744,0.8148,11078,2083,8751,14347,28.7,16.3,
+Random Forest,inti,Spark MLlib,chronological_test,0.5,0.7182,0.7541,0.7182,0.7147,0.8506,0.5881,0.6954,0.8753,0.7596,0.8234,11662,2049,8167,14381,109.9,16.3,
+GBT,inti,Spark MLlib,chronological_test,0.5,0.7153,0.7494,0.7153,0.7119,0.8432,0.5889,0.6935,0.8678,0.7714,0.8345,11678,2172,8151,14258,283.9,16.3,
+Decision Tree,sekunder,Spark MLlib,chronological_test,0.5,0.7158,0.7505,0.7158,0.7123,0.8451,0.5881,0.6935,0.8699,0.7662,0.8412,11661,2138,8168,14292,11.3,16.3,
+Logistic Regression,inti,scikit-learn,chronological_test,0.5,0.6932,0.7384,0.6932,0.6869,0.8426,0.5399,0.6581,0.8783,0.7441,0.8147,10705,2000,9124,14430,14.6,,7.6
+Random Forest,inti,scikit-learn,chronological_test,0.5,0.7184,0.7542,0.7184,0.7148,0.8506,0.5884,0.6956,0.8752,0.7571,0.8225,11668,2050,8161,14380,21.1,,7.6
+GBT,inti,scikit-learn,chronological_test,0.5,0.7179,0.7529,0.7179,0.7145,0.8482,0.5897,0.6957,0.8726,0.7711,0.8343,11694,2093,8135,14337,13.4,,7.6
+Decision Tree,sekunder,scikit-learn,chronological_test,0.5,0.7153,0.7498,0.7153,0.7118,0.8442,0.5879,0.6931,0.869,0.7649,0.7981,11657,2152,8172,14278,4.2,,7.6
+Baseline lookup Shipping Mode,baseline,—,chronological_test,0.5,0.6926,,,,0.8427,0.5384,0.657,0.8788,,,10675,1992,9154,14438,0.0,,
+GBT @ ambang 0.50,varian ambang,Spark MLlib,chronological_test,0.5,0.7153,,,,0.8432,0.5889,0.6935,0.8678,0.7714,0.8345,11678,2172,8151,14258,,,
+GBT @ ambang 0.54,varian ambang,Spark MLlib,chronological_test,0.54,0.715,,,,0.8453,0.5861,0.6922,0.8705,0.7714,0.8345,11621,2127,8208,14303,,,
+GBT @ ambang 0.31,varian ambang,Spark MLlib,chronological_test,0.31,0.5798,,,,0.5666,0.9849,0.7194,0.0909,0.7714,0.8345,19529,14936,300,1494,,,
+GBT @ ambang 0.06,varian ambang,Spark MLlib,chronological_test,0.06,0.5721,,,,0.561,1.0,0.7188,0.0556,0.7714,0.8345,19829,15516,0,914,,,
+Logistic Regression,sensitivitas,Spark MLlib,random_test,0.5,0.7084,,,,0.84,0.5793,0.6857,0.8656,0.7461,0.8187,11486,2187,8343,14089,,,
+Random Forest,sensitivitas,Spark MLlib,random_test,0.5,0.7205,,,,0.8572,0.5893,0.6985,0.8804,0.7569,0.8259,11686,1947,8143,14329,,,
+GBT,sensitivitas,Spark MLlib,random_test,0.5,0.7221,,,,0.8535,0.5963,0.7021,0.8753,0.7873,0.8482,11825,2029,8004,14247,,,

@@ -1,0 +1,4 @@
+varian,n_fitur_num,n_fitur_cat,accuracy,recall_pos,f1_pos,roc_auc
+Lengkap,12,9,0.7182,0.5881,0.6954,0.7596
+Tanpa sched_days,11,9,0.7177,0.5895,0.6955,0.7566
+Tanpa shipping_mode,12,8,0.6895,0.5974,0.6779,0.7357

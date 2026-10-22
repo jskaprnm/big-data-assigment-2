@@ -1,0 +1,153 @@
+{
+  "target": "label",
+  "unit_observasi": "satu baris order item pada fact_orders",
+  "kelas_positif": 1,
+  "seed": 42,
+  "split_utama": {
+    "jenis": "chronological",
+    "proporsi": {
+      "train": 0.7,
+      "validation": 0.1,
+      "test": 0.2
+    },
+    "batas_train_val": "1483776900.0",
+    "batas_val_test": "1492803600.0",
+    "baris": {
+      "train": 126218,
+      "validation": 18042,
+      "test": 36259
+    }
+  },
+  "split_sensitivitas": {
+    "jenis": "random",
+    "proporsi": [
+      0.8,
+      0.2
+    ],
+    "seed": 42
+  },
+  "fitur_kategorikal": [
+    "shipping_mode",
+    "order_region",
+    "order_country",
+    "market",
+    "category_name",
+    "department_name",
+    "customer_segment",
+    "payment_type",
+    "price_bucket"
+  ],
+  "fitur_numerik": [
+    "sched_days",
+    "qty",
+    "sales",
+    "unit_price",
+    "discount_rate",
+    "order_year",
+    "order_month",
+    "order_dayofweek",
+    "order_hour",
+    "is_weekend",
+    "line_total",
+    "discount_amount"
+  ],
+  "kolom_leakage_dikecualikan": {
+    "real_days": "Durasi pengiriman aktual; baru diketahui setelah pengiriman selesai.",
+    "delivery_status": "Status akhir pengiriman; merupakan outcome yang ingin diprediksi.",
+    "ship_ts": "Tanggal pengiriman aktual; belum ada saat order dibuat.",
+    "ship_date_raw": "Bentuk mentah dari ship_ts.",
+    "order_status": "Berubah mengikuti perkembangan order; nilai akhir belum ada saat prediksi."
+  },
+  "model_inti": [
+    "Logistic Regression",
+    "Random Forest",
+    "GBT"
+  ],
+  "model_sekunder": [
+    "Decision Tree"
+  ],
+  "parameter_model": {
+    "Logistic Regression": {
+      "maxIter": 50,
+      "regParam": 0.01
+    },
+    "Random Forest": {
+      "numTrees": 100,
+      "maxDepth": 10,
+      "seed": 42
+    },
+    "GBT": {
+      "maxIter": 50,
+      "maxDepth": 6,
+      "seed": 42
+    },
+    "Decision Tree": {
+      "maxDepth": 8,
+      "seed": 42
+    }
+  },
+  "ambang": {
+    "model_dipakai": "GBT",
+    "dipilih_pada": "validation set",
+    "baku": 0.5,
+    "kriteria": {
+      "F1 kelas positif maks": 0.31,
+      "Youden J maks": 0.54,
+      "Balanced accuracy maks": 0.54,
+      "Accuracy maks": 0.48,
+      "Biaya minimum": 0.06
+    },
+    "f1_klasifikator_trivial": 0.7038,
+    "rasio_biaya_fn_terhadap_fp": 3.0,
+    "ambang_dilaporkan": {
+      "baku": 0.5,
+      "youden_j": 0.54,
+      "f1_maks": 0.31,
+      "biaya_minimum": 0.06
+    }
+  },
+  "graph_utama_metrik": {
+    "node": 142,
+    "edge": 751,
+    "modularitas": 0.0641,
+    "jumlah_komunitas": 3
+  },
+  "graph_utama": {
+    "node_sumber": "customer_state",
+    "node_tujuan": "order_country",
+    "arah": "directed bipartite",
+    "bobot": "jumlah order",
+    "ambang_bobot_edge": 30,
+    "batas_interpretasi": "customer_state adalah lokasi pendaftaran pelanggan, bukan lokasi gudang atau rute pengiriman fisik"
+  },
+  "graph_pendukung": {
+    "node": "category_name",
+    "edge": "co-occurrence pada order_id",
+    "ambang_bobot_edge": 20
+  },
+  "waktu_detik": {
+    "preprocessing_spark": 16.3,
+    "konversi_spark_ke_pandas": 7.6,
+    "fit_spark": {
+      "Logistic Regression": 28.7,
+      "Random Forest": 109.9,
+      "GBT": 283.9,
+      "Decision Tree": 11.3
+    },
+    "fit_sklearn": {
+      "Logistic Regression": 14.6,
+      "Random Forest": 21.1,
+      "GBT": 13.4,
+      "Decision Tree": 4.2
+    }
+  },
+  "versi_library": {
+    "python": "3.13.16",
+    "pyspark": "3.5.1",
+    "scikit_learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "networkx": "3.7"
+  },
+  "graphframes_aktif": true
+}

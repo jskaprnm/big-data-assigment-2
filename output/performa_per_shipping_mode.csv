@@ -1,0 +1,5 @@
+shipping_mode,n,late_aktual,rate_prediksi_1,accuracy,recall_pos,FN,FP
+Standard Class,21633.0,0.3775,0.0131,0.6206,0.0148,8046.0,162.0
+Second Class,7066.0,0.7615,0.9939,0.7583,0.9939,33.0,1675.0
+First Class,5601.0,0.9452,0.9918,0.9416,0.9938,33.0,294.0
+Same Day,1959.0,0.5038,0.5048,0.9592,0.9605,39.0,41.0
